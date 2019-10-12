@@ -1,2 +1,0 @@
-# inovarts
-inovarts studio

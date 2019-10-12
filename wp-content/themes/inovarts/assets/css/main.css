@@ -1,0 +1,88 @@
+#wpadminbar {
+  display: none;
+}
+
+.floater-menu {
+  background-color: rgba(191, 4, 4, 0.801);
+  width: 50px;
+  height: 50px;
+  border-radius: 0 0 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 7px 7px 7px 10px;
+  z-index: 2;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+.floater-menu:hover #line-menu-1 {
+  width: 25px;
+  transition: all ease-out 0.8s;
+}
+.floater-menu:hover #line-menu-2 {
+  width: 20px;
+  transition: all ease-out 0.8s;
+}
+.floater-menu:hover #line-menu-3 {
+  width: 15px;
+  transition: all ease-out 0.8s;
+}
+.floater-menu .line-menu {
+  transition: all ease-out 0.8s;
+  position: relative;
+  width: 20px;
+  background-color: white;
+  height: 2px;
+  margin-top: 6px;
+  box-shadow: -2px 2px 6px 1px black;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.slider img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(50%);
+  position: absolute;
+  transition-duration: 0.8s;
+}
+.slider #img-2 {
+  transform: translateX(100%);
+}
+.slider #img-1 {
+  transform: translateX(0%);
+}
+.slider #img-3 {
+  transform: translateX(200%);
+}
+
+#wrapper {
+  position: relative;
+}
+
+.slide {
+  position: relative;
+}
+.slide .card-service-home {
+  border: solid grey 0.5px;
+  height: 200px;
+  background-color: #707070;
+  transition-duration: 0.8s;
+}
+.slide .card-service-home:hover {
+  background-color: grey;
+  transition-duration: 0.8s;
+}
+.slide .box {
+  position: absolute;
+  top: 70vh;
+  width: 100%;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */

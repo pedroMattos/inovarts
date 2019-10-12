@@ -1,0 +1,12 @@
+// COLORS
+$red-primary: rgba(191, 4, 4, 0.801);
+$grey-primary: #707070;
+
+// LOCAL
+#wpadminbar {
+    display: none;
+}
+
+// IMPORTS
+@import 'floater-menu';
+@import 'slider';
