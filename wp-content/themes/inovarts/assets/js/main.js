@@ -6,12 +6,22 @@ window.onload = function() {
     function menu() {
         var menu = doc.getElementsByClassName('floater-menu')[0]
         var lines = doc.getElementsByClassName('line-menu')
-        menu.onclick = function() {
-            menu.setAttribute('style', 
-            'width: 100vw; height: 100vh; transition-duration: .8s; border-radius: 0; background-color: #707070; cursor:default;')
-            for(let i in lines) {
-                lines[i].classList.add('hider-rotate')
+        var close = doc.createElement('span')
+        var wrapper = doc.getElementById('lines')
+        close.textContent = 'x'
+        wrapper.onclick = function() {
+            close.classList.add('close-menu')
+            menu.classList.add('expanded-menu')
+            menu.appendChild(close)
+            close.classList.add('show-close-btn')
+            wrapper.setAttribute('style', 'display:none')
+        }
+        close.onclick = function() {
+            if(menu.classList.contains('expanded-menu')) {
+                menu.classList.remove('expanded-menu')
             }
+            menu.removeChild(menu.children[1])
+            wrapper.removeAttribute('style','display:none')
         }
     }
 
