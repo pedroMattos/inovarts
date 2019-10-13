@@ -34,3 +34,8 @@
         box-shadow: -2px 2px 6px 1px black;
     }
 }
+.hider-rotate {
+    transform: rotate(180deg);
+    opacity: 0;
+    transition-duration: .8s;
+}

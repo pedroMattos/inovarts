@@ -18,7 +18,7 @@
         transform: translateX(0%);
     }
     #img-3 {
-        transform: translateX(200%);
+        transform: translateX(100%);
     }
 }
 #wrapper {
@@ -49,25 +49,41 @@
     width: 20px;
     height: 55px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 20px;
+    bottom: 10%;
     z-index: 2;
+    cursor: pointer;
     &::after {
         content: '⟨';
         font-size: 30px;
         margin: auto;
+        transition-duration: .8s;
+    }
+    &:hover {
+        &::after {
+            transition-duration: .8s;
+            color: white;
+        }
     }
 }
 .arrow-right {
     width: 20px;
     height: 55px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 10%;
     z-index: 2;
+    cursor: pointer;
     &::before {
         content: '⟩';
         font-size: 30px;
         margin: auto;
+        transition-duration: .8s;
+    }
+    &:hover {
+        &::before {
+            transition-duration: .8s;
+            color: white;
+        }
     }
 }

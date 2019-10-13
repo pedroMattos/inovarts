@@ -5,9 +5,13 @@ window.onload = function() {
     // FUNCTIONS DECLARATION
     function menu() {
         var menu = doc.getElementsByClassName('floater-menu')[0]
+        var lines = doc.getElementsByClassName('line-menu')
         menu.onclick = function() {
             menu.setAttribute('style', 
             'width: 100vw; height: 100vh; transition-duration: .8s; border-radius: 0; background-color: #707070; cursor:default;')
+            for(let i in lines) {
+                lines[i].classList.add('hider-rotate')
+            }
         }
     }
 
@@ -21,11 +25,17 @@ window.onload = function() {
             slide[0].appendChild(arrowL)
             slide[0].appendChild(arrowR)
         }
+        arrowL.onclick = function() {
+
+        }
+        arrowR.onclick = function() {
+
+        }
     }
 
 
 
     //FUNCTION CALL
     menu()
-    slider()
+    //slider()
 }
