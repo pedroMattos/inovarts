@@ -15,7 +15,6 @@
             <div class="col s12 m4 card-service-home">
 
             </div>
-            <div class="arrow"></div>
         </div>
     </div>
 </div>
