@@ -34,8 +34,32 @@
         box-shadow: -2px 2px 6px 1px black;
     }
 }
+.close-menu {
+    transition-duration: .8s;
+    font-size: 32px;
+    color: white;
+    text-shadow: -3px 4px 4px black;
+    position: absolute;
+    top: -7px;
+    left: 13px;
+    cursor: pointer;
+    opacity: 0;
+}
+.show-close-btn {
+    opacity: 1;
+    transition-duration: .8s;
+    transform: rotate(360deg)
+}
 .hider-rotate {
     transform: rotate(180deg);
     opacity: 0;
     transition-duration: .8s;
+}
+.expanded-menu {
+    width: 100vw;
+    height: 100vh;
+    transition-duration: .8s;
+    border-radius: 0;
+    background-color: $grey-primary;
+    cursor:default;
 }
