@@ -15,7 +15,9 @@
 
     <!-- Floater Menu -->
     <div class="floater-menu">
-        <div class="line-menu" id="line-menu-1"></div>
-        <div class="line-menu" id="line-menu-2"></div>
-        <div class="line-menu" id="line-menu-3"></div>
+        <div id="lines">
+            <div class="line-menu" id="line-menu-1"></div>
+            <div class="line-menu" id="line-menu-2"></div>
+            <div class="line-menu" id="line-menu-3"></div>
+        </div>
     </div>
