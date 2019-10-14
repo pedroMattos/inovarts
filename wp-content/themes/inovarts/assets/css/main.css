@@ -1,4 +1,8 @@
 @charset "UTF-8";
+h1, h2 {
+  font-family: "CinzelDecorative-Regular";
+}
+
 #wpadminbar {
   display: none;
 }
@@ -119,6 +123,20 @@
   top: 70vh;
   width: 100%;
   z-index: 1;
+  color: white;
+}
+.slide .box .card-service-home {
+  padding: 20px;
+}
+.slide .box .card-service-home h2 {
+  font-size: 24px;
+  margin: 0;
+  font-style: italic;
+}
+.slide .box svg {
+  width: 60px;
+  height: 60px;
+  fill: white;
 }
 
 .arrow-left {
