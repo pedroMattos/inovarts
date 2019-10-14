@@ -2,6 +2,11 @@
 $red-primary: rgba(191, 4, 4, 0.801);
 $grey-primary: #707070;
 
+//DEFAULTS
+h1, h2 {
+    font-family: "CinzelDecorative-Regular";
+}
+
 // LOCAL
 #wpadminbar {
     display: none;
