@@ -2,7 +2,10 @@
 <html lang="pt-br">
     <head>
         <!-- Meta tags -->
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Pedro Mattos">
         <!-- CDN Styles -->
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -10,6 +13,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Main Style -->
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/main.css" type="text/css">
+        <!-- FavIcon -->
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/assets/img/logo-inovarts.ico">
+        <title>Inovarts Studios</title>
         <?php wp_head(); ?>
     </head>
 
