@@ -1,0 +1,21 @@
+.btn-cta {
+    background-color: $red-primary;
+    border-radius: 0 12px;
+    height: 40px;
+    width: 130px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    transition-duration: .5s;
+    border: none;
+    cursor: pointer;
+    margin:  10px;
+    &:hover {
+        background-color: rgb(191, 4, 4);
+        transition-duration: .5s;
+    }
+}
+button:focus {
+    outline: none;
+    background-color: rgb(191, 4, 4);
+}
