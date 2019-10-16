@@ -1,8 +1,7 @@
 .slider {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
-    overflow-x: hidden;
-    height: 100vh;
+    /* overflow-x: hidden; */
     img {
         width: 100%;
         height: 100vh;
@@ -10,15 +9,6 @@
         filter: brightness(50%);
         position: absolute;
         transition-duration: .8s;
-    }
-    #img-2 {
-        transform: translateX(100%);
-    }
-    #img-1 {
-        transform: translateX(0%);
-    }
-    #img-3 {
-        transform: translateX(100%);
     }
 }
 #wrapper {
@@ -114,28 +104,65 @@
         }
     }
 }
-img#logo {
+#logo-on-mobile {
+    background-color: white;
     z-index: 2;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 100px;
+    position: fixed;
     top: 0;
-    right: 35px;
+    right: 0;
+    #logo {
+        z-index: 2;
+        width: 200px;
+        height: 200px;
+        top: -43px;
+        right: 16px;
+        @include smartphones {
+            width: 100px;
+            height: 100px;
+            top: -18px;
+            right: 16px;
+        }
+    }
+    @include smartphones {
+        background-color: white;
+        z-index: 2;
+        width: 133px;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
 }
 .cta-field {
     position: absolute;
-    bottom: 220px;
+    bottom: 0;
     z-index: 2;
-    padding-left: 25px;
+    padding-left: 35px;
+    width: 45%;
     #text {
         width: 345px;
         color: $grey-light;
+        float: left;
+        @include smartphones {
+            width: 265px;
+        }
         p {
             text-decoration: underline;
         }
         h1 {
             margin: 0;
-            font-size: 45px;
+            font-size: 39px;
             font-style: italic;
+            @include smartphones {
+                font-size: 27px;
+            }
         }
     }
+}
+#btn {
+    width: 130px;
+    float: right;
+    margin-top: 20px;
 }
