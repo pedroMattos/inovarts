@@ -1,0 +1,21 @@
+#to-portfolio {
+    height: 100vh;
+    background-color: $grey-light;
+    margin-top: 264px;
+    @include smartphones {
+        margin-top: 100vh;
+    }
+    #text-cta {
+        background-color: $red-primary;
+        height: 100vh;
+        #content {
+            padding-top: 20%;
+            h2 {
+                font-size: 40px;
+                @include smartphones {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
