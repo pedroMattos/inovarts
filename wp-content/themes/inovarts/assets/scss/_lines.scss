@@ -1,0 +1,19 @@
+.white {
+    background-color: white;
+    height: 5px;
+    width: 100px;
+    margin-left: 10px;
+}
+.grey-dark {
+    background-color: $grey-primary;
+    height: 5px;
+    width: 100px;
+}
+.grey-ligh {
+    background-color: $grey-light;
+    height: 5px;
+    width: 100px;
+}
+.line {
+    transform: translateX(-148px);
+}
