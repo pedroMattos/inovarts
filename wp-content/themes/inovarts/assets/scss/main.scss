@@ -3,7 +3,7 @@ $red-primary: rgba(191, 4, 4, 0.801);
 $grey-primary: #707070;
 $grey-light: #D9D9D9;
 
-//DEFAULTS
+// DEFAULTS
 h1, h2 {
     font-family: "CinzelDecorative-Regular";
 }
@@ -17,3 +17,6 @@ h1, h2 {
 @import 'mixins';
 @import 'floater-menu';
 @import 'slider';
+@import 'button-cta';
+@import 'to-portfolio';
+@import 'lines';
