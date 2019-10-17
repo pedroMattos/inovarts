@@ -43,6 +43,10 @@ window.onload = function() {
         }
     }
 
+    // PARALLAX MATERIALIZE
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
 
 
     //FUNCTION CALL
