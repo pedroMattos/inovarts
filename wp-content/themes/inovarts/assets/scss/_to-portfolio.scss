@@ -52,15 +52,15 @@
             bottom: 15.5px;
         }
         &:hover {
-            color: grey;
+            color: #c7c7c7;
             transition-duration: .5s;
             &::after {
-                background-color: grey;
+                background-color: #c7c7c7;
                 width: 200px;
                 transition-duration: .5s;
             }
             &::before {
-                color: grey;
+                color: #c7c7c7;
                 transition-duration: .5s;
                 left: 195px;
                 opacity: 1;
