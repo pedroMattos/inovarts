@@ -3,3 +3,21 @@
         @content;
     }
 }
+@mixin link-text() {
+    &::after {
+        content: '—';
+    }
+    &::before {
+        content: '—';
+    }
+}
+@mixin link-text-right() {
+    &::after {
+        content: '—';
+    }
+}
+@mixin link-text-left() {
+    &::before {
+        content: '—';
+    }
+}
