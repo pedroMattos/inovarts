@@ -11,6 +11,7 @@
     </div>
 
     <div class="row container" id="card-area">
-        <?php include 'cards-blog.php'; ?>
+        <?php for($i = 0; $i <= 2; $i++){ include 'cards-blog.php'; } ?>
     </div>
+    <div class="row container center"><a class="link-text" href="<?php bloginfo('url') ?>/blog">SEE MORE</a></div>
 </section>
