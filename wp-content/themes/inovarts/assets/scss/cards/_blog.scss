@@ -3,6 +3,7 @@
     border-radius: 0 12px 0 12px;
     overflow: hidden;
     position: relative;
+    background-color: white;
     > img {
         width: 100%;
         border-radius: 0 10px 0 0;
@@ -26,6 +27,17 @@
         .head-internal {
             h2 {
                 opacity: 0;
+            }
+            #like-card {
+                transform: translate(2px, -41px);
+                opacity: 0;
+            }
+            #post-date {
+                transform: translate(190px, -82px);
+                opacity: 0;
+                p {
+                    width: 100px;
+                }
             }
         }
         .footer-internal {
@@ -51,7 +63,7 @@
             height: 100%;
             transition-duration: .5s;
             .category-icon {
-                transform: translate(160px, 135px);
+                transform: translate(160px, 118px);
                 transition-duration: .5s;
                 fill: $grey-primary;
             }
@@ -59,7 +71,31 @@
                 h2 {
                     transition-duration: .5s;
                     opacity: 1;
-                    margin-top: 100px;
+                    margin-top: 14px;
+                }
+                #like-card {
+                    transition-delay: .2s;
+                    transition-duration: .5s;
+                    opacity: 1;
+                    fill: $grey-primary;
+                    svg {
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+                #post-date {
+                    transition-delay: .2s;
+                    transition-duration: .5s;
+                    opacity: 1;
+                    fill: $grey-primary;
+                    color: $grey-primary;
+                    svg {
+                        width: 16px;
+                        height: 16px;
+                    }
+                    p {
+                        width: 100px;
+                    }
                 }
             }
             .footer-internal {
@@ -67,6 +103,11 @@
                     transition-delay: .5s;
                     transition-duration: .2s;
                     opacity: 1;
+                }
+                .internal-link-card {
+                    opacity: 1;
+                    transition-delay: .2s;
+                    transition-duration: .5s;
                 }
             }
         }
@@ -79,4 +120,8 @@
 strong.link-card, strong.link-card a {
     color: $red-primary;
     text-decoration: underline;
+}
+.internal-link-card {
+    margin-top: 18px;
+    opacity: 0;
 }
