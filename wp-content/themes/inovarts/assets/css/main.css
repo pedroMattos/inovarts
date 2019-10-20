@@ -1,12 +1,4 @@
 @charset "UTF-8";
-h1, h2 {
-  font-family: "Cinzel", Arial, Helvetica, sans-serif;
-}
-
-#wpadminbar {
-  display: none;
-}
-
 .floater-menu {
   background-color: rgba(191, 4, 4, 0.801);
   width: 50px;
@@ -407,11 +399,16 @@ button:focus {
   margin-top: 50px;
 }
 
+#to-blog {
+  background-color: #D9D9D9;
+}
+
 .own-card {
   border: solid 1px #D9D9D9;
   border-radius: 0 12px 0 12px;
   overflow: hidden;
   position: relative;
+  background-color: white;
 }
 .own-card > img {
   width: 100%;
@@ -437,6 +434,17 @@ button:focus {
 .own-card .category .head-internal h2 {
   opacity: 0;
 }
+.own-card .category .head-internal #like-card {
+  transform: translate(2px, -41px);
+  opacity: 0;
+}
+.own-card .category .head-internal #post-date {
+  transform: translate(190px, -82px);
+  opacity: 0;
+}
+.own-card .category .head-internal #post-date p {
+  width: 100px;
+}
 .own-card .category .footer-internal p {
   opacity: 0;
 }
@@ -457,19 +465,48 @@ button:focus {
   transition-duration: 0.5s;
 }
 .own-card:hover .category .category-icon {
-  transform: translate(160px, 135px);
+  transform: translate(160px, 118px);
   transition-duration: 0.5s;
   fill: #707070;
 }
 .own-card:hover .category .head-internal h2 {
   transition-duration: 0.5s;
   opacity: 1;
-  margin-top: 100px;
+  margin-top: 14px;
+}
+.own-card:hover .category .head-internal #like-card {
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+  opacity: 1;
+  fill: #707070;
+}
+.own-card:hover .category .head-internal #like-card svg {
+  height: 20px;
+  width: 20px;
+}
+.own-card:hover .category .head-internal #post-date {
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
+  opacity: 1;
+  fill: #707070;
+  color: #707070;
+}
+.own-card:hover .category .head-internal #post-date svg {
+  width: 16px;
+  height: 16px;
+}
+.own-card:hover .category .head-internal #post-date p {
+  width: 100px;
 }
 .own-card:hover .category .footer-internal p {
-  transition-delay: 0.8s;
-  transition-duration: 1.2s;
+  transition-delay: 0.5s;
+  transition-duration: 0.2s;
   opacity: 1;
+}
+.own-card:hover .category .footer-internal .internal-link-card {
+  opacity: 1;
+  transition-delay: 0.2s;
+  transition-duration: 0.5s;
 }
 .own-card:hover img {
   transform: scale(4);
@@ -479,6 +516,61 @@ button:focus {
 strong.link-card, strong.link-card a {
   color: rgba(191, 4, 4, 0.801);
   text-decoration: underline;
+}
+
+.internal-link-card {
+  margin-top: 18px;
+  opacity: 0;
+}
+
+h1, h2 {
+  font-family: "Cinzel", Arial, Helvetica, sans-serif;
+}
+
+.link-text {
+  color: #707070;
+  transition-duration: 0.5s;
+}
+.link-text::after {
+  content: "—";
+}
+.link-text::before {
+  content: "—";
+}
+.link-text:hover {
+  color: rgba(191, 4, 4, 0.801);
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+
+.link-text-right {
+  color: #707070;
+  transition-duration: 0.5s;
+}
+.link-text-right::after {
+  content: "—";
+}
+.link-text-right:hover {
+  color: rgba(191, 4, 4, 0.801);
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+
+.link-text-left {
+  color: #707070;
+  transition-duration: 0.5s;
+}
+.link-text-left::before {
+  content: "—";
+}
+.link-text-left:hover {
+  color: rgba(191, 4, 4, 0.801);
+  transition-duration: 0.5s;
+  font-weight: 700;
+}
+
+#wpadminbar {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
