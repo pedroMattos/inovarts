@@ -14,7 +14,7 @@
         <!-- Main Style -->
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/main.css" type="text/css">
         <!-- FavIcon -->
-        <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/assets/img/logo-inovarts.ico">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/assets/img/favicon.png">
         <title>Inovarts Studios</title>
         <?php wp_head(); ?>
     </head>
