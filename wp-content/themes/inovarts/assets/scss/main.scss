@@ -1,6 +1,8 @@
 // COLORS
-$red-primary: rgba(191, 4, 4, 0.801);
-$grey-primary: #707070;
+$blue-primary: #041A59;
+$blue-secondary: #031240;
+$blue-tertiary: #020B26;
+$dark-grey: rgb(41, 41, 41);
 $grey-light: #D9D9D9;
 $white-alpha: rgba(255, 255, 255, 0.71);
 
@@ -15,39 +17,46 @@ $white-alpha: rgba(255, 255, 255, 0.71);
 @import 'cards/blog';
 @import 'cards/partnes';
 @import 'to-partnes';
+@import 'footer';
 
 // DEFAULTS
 h1, h2 {
     font-family: "Cinzel", Arial, Helvetica, sans-serif
 }
+.inline {
+    display: inline-block;
+}
+section {
+    height: 100vh;
+}
 
 // LINKS
 .link-text {
-    color: $grey-primary;
+    color: $dark-grey;
     @include link-text();
     transition-duration: .5s;
     &:hover {
-        color: $red-primary;
+        color: $blue-primary;
         transition-duration: .5s;
         font-weight: 700;
     }
 }
 .link-text-right {
-    color: $grey-primary;
+    color: $dark-grey;
     @include link-text-right();
     transition-duration: .5s;
     &:hover {
-        color: $red-primary;
+        color: $blue-primary;
         transition-duration: .5s;
         font-weight: 700;
     }
 }
 .link-text-left {
-    color: $grey-primary;
+    color: $dark-grey;
     @include link-text-left();
     transition-duration: .5s;
     &:hover {
-        color: $red-primary;
+        color: $blue-primary;
         transition-duration: .5s;
         font-weight: 700;
     }
