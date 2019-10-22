@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .floater-menu {
-  background-color: rgba(191, 4, 4, 0.801);
+  background-color: #041A59;
   width: 50px;
   height: 50px;
   border-radius: 0 0 20px 0;
@@ -65,7 +65,7 @@
   height: 100vh;
   transition-duration: 0.8s;
   border-radius: 0;
-  background-color: #707070;
+  background-color: #292929;
   cursor: default;
 }
 
@@ -97,7 +97,7 @@
 .slide .card-service-home {
   border: solid grey 0.5px;
   height: 200px;
-  background-color: #707070;
+  background-color: #292929;
   transition-duration: 0.8s;
 }
 .slide .card-service-home p {
@@ -250,7 +250,7 @@
 }
 
 .btn-cta {
-  background-color: rgba(191, 4, 4, 0.801);
+  background-color: #041A59;
   border-radius: 0 12px;
   height: 40px;
   width: 130px;
@@ -283,7 +283,7 @@ button:focus {
   }
 }
 #to-portfolio #text-cta {
-  background-color: rgba(191, 4, 4, 0.801);
+  background-color: #041A59;
   height: 100vh;
 }
 #to-portfolio #text-cta #content {
@@ -367,7 +367,7 @@ button:focus {
 }
 
 .grey-dark {
-  background-color: #707070;
+  background-color: #292929;
   height: 5px;
   width: 100px;
 }
@@ -383,7 +383,7 @@ button:focus {
 }
 
 #header {
-  background-color: #707070;
+  background-color: #292929;
   color: white;
   border-radius: 0 0 12px 0;
 }
@@ -453,7 +453,7 @@ button:focus {
   font-size: 26px;
   font-style: italic;
   font-weight: 700;
-  color: #707070;
+  color: #292929;
   margin: 0;
   padding-left: 10px;
 }
@@ -468,7 +468,7 @@ button:focus {
 .own-card:hover .category .category-icon {
   transform: translate(160px, 118px);
   transition-duration: 0.5s;
-  fill: #707070;
+  fill: #292929;
 }
 .own-card:hover .category .head-internal h2 {
   transition-duration: 0.5s;
@@ -479,7 +479,7 @@ button:focus {
   transition-delay: 0.2s;
   transition-duration: 0.5s;
   opacity: 1;
-  fill: #707070;
+  fill: #292929;
 }
 .own-card:hover .category .head-internal #like-card svg {
   height: 20px;
@@ -489,8 +489,8 @@ button:focus {
   transition-delay: 0.2s;
   transition-duration: 0.5s;
   opacity: 1;
-  fill: #707070;
-  color: #707070;
+  fill: #292929;
+  color: #292929;
 }
 .own-card:hover .category .head-internal #post-date svg {
   width: 16px;
@@ -515,7 +515,7 @@ button:focus {
 }
 
 strong.link-card, strong.link-card a {
-  color: rgba(191, 4, 4, 0.801);
+  color: #041A59;
   text-decoration: underline;
 }
 
@@ -590,12 +590,79 @@ strong.link-card, strong.link-card a {
   padding-top: 200px;
 }
 
+#body-footer {
+  margin-bottom: 0;
+  border-bottom: solid white 0.3px;
+}
+#body-footer #logo-footer-img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+
+footer {
+  padding-bottom: 20px;
+  background-color: #D9D9D9;
+}
+
+#site-map {
+  margin-bottom: 0;
+}
+
+#wrapp-footer {
+  background-color: #041A59;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+#list {
+  color: white;
+  font-weight: 500;
+}
+#list ul li {
+  display: inline-block;
+}
+
+.link_footer {
+  position: relative;
+  color: white;
+}
+.link_footer::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 0.5px;
+  background-color: #D9D9D9;
+  transition-duration: 0.5s;
+  left: 0;
+  transform: translateY(21px);
+}
+.link_footer:hover::after {
+  width: 100%;
+  transition-duration: 0.5s;
+}
+
+#copyright {
+  margin-top: 30px;
+  color: #D9D9D9;
+  font-weight: lighter;
+}
+
 h1, h2 {
   font-family: "Cinzel", Arial, Helvetica, sans-serif;
 }
 
+.inline {
+  display: inline-block;
+}
+
+section {
+  height: 100vh;
+}
+
 .link-text {
-  color: #707070;
+  color: #292929;
   transition-duration: 0.5s;
 }
 .link-text::after {
@@ -605,33 +672,33 @@ h1, h2 {
   content: "—";
 }
 .link-text:hover {
-  color: rgba(191, 4, 4, 0.801);
+  color: #041A59;
   transition-duration: 0.5s;
   font-weight: 700;
 }
 
 .link-text-right {
-  color: #707070;
+  color: #292929;
   transition-duration: 0.5s;
 }
 .link-text-right::after {
   content: "—";
 }
 .link-text-right:hover {
-  color: rgba(191, 4, 4, 0.801);
+  color: #041A59;
   transition-duration: 0.5s;
   font-weight: 700;
 }
 
 .link-text-left {
-  color: #707070;
+  color: #292929;
   transition-duration: 0.5s;
 }
 .link-text-left::before {
   content: "—";
 }
 .link-text-left:hover {
-  color: rgba(191, 4, 4, 0.801);
+  color: #041A59;
   transition-duration: 0.5s;
   font-weight: 700;
 }
