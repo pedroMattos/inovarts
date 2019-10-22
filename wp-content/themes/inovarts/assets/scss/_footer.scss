@@ -1,8 +1,8 @@
 #body-footer {
     margin-bottom: 0;
     #logo-footer-img {
-        width: 120px;
-        height: 100px;
+        width: 200px;
+        height: 165px;
         object-fit: cover;
     }
     border-bottom: solid white 0.3px;
@@ -52,4 +52,12 @@ footer {
     margin-top: 30px;
     color: $grey-light;
     font-weight: lighter;
+}
+#links-list .link_footer {
+    color: $grey-light;
+}
+#links-list ul.link_footer {
+    li {
+        margin-bottom: 10px;
+    }
 }
