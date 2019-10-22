@@ -50,7 +50,7 @@
         font-size: 26px;
         font-style: italic;
         font-weight: 700;
-        color: $grey-primary;
+        color: $dark-grey;
         margin: 0;
         padding-left: 10px;
     }
@@ -65,7 +65,7 @@
             .category-icon {
                 transform: translate(160px, 118px);
                 transition-duration: .5s;
-                fill: $grey-primary;
+                fill: $dark-grey;
             }
             .head-internal {
                 h2 {
@@ -77,7 +77,7 @@
                     transition-delay: .2s;
                     transition-duration: .5s;
                     opacity: 1;
-                    fill: $grey-primary;
+                    fill: $dark-grey;
                     svg {
                         height: 20px;
                         width: 20px;
@@ -87,8 +87,8 @@
                     transition-delay: .2s;
                     transition-duration: .5s;
                     opacity: 1;
-                    fill: $grey-primary;
-                    color: $grey-primary;
+                    fill: $dark-grey;
+                    color: $dark-grey;
                     svg {
                         width: 16px;
                         height: 16px;
@@ -118,7 +118,7 @@
     }
 }
 strong.link-card, strong.link-card a {
-    color: $red-primary;
+    color: $blue-primary;
     text-decoration: underline;
 }
 .internal-link-card {
