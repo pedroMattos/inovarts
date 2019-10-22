@@ -2,11 +2,18 @@
         <footer>
             <div id="wrapp-footer">
                 <div class="row" id="body-footer">
-                    <div id="logo-footer" class="col s12 m3">
+                    <div id="logo-footer" class="col s12 m2">
                         <img id="logo-footer-img" src="<?php bloginfo('template_url'); ?>/assets/img/logo-inovarts.png">
                     </div>
-                    <div class="col s12 m3">
-
+                    <div id="links-list" class="col s12 m3">
+                        <ul>
+                            <li><a href="#" class="link_footer">Portfolio</a></li>
+                            <li><a href="#" class="link_footer">Services</a></li>
+                            <li><a href="#" class="link_footer">Partners</a></li>
+                            <li><a href="#" class="link_footer">Blog</a></li>
+                            <li><a href="#" class="link_footer">Contact</a></li>
+                            <li><a href="#" class="link_footer">Privacity Police</a></li>
+                        </ul>
                     </div>
                     <div class="col s12 m3">
 
