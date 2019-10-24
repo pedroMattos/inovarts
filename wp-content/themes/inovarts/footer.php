@@ -5,7 +5,7 @@
                     <div id="logo-footer" class="col s12 m2">
                         <img id="logo-footer-img" src="<?php bloginfo('template_url'); ?>/assets/img/logo-inovarts.png">
                     </div>
-                    <div id="links-list" class="col s12 m3">
+                    <div id="links-list" class="col s12 m2">
                         <ul>
                             <li><a href="#" class="link_footer">Portfolio</a></li>
                             <li><a href="#" class="link_footer">Services</a></li>
@@ -15,11 +15,16 @@
                             <li><a href="#" class="link_footer">Privacity Police</a></li>
                         </ul>
                     </div>
-                    <div class="col s12 m3">
-
+                    <div id="contact-footer" class="col s12 m3">
+                        <h3>Contact Us:</h3>
+                        <a class="link_footer"><p>Email:email@mail.com</p></a>
+                        <a class="link_footer"><p>Phone:(71)00000-0000</p></a>
                     </div>
-                    <div class="col s12 m3">
-
+                    <div id="services-portfolio" class="col s12 m3">
+                        <h3>See our services:</h3>
+                        <div id="btn-footer-portfolio" class="col m6 s12">
+                            <a href="<?php bloginfo('url') ?>/services"><button class="btn-cta">Services</button></a>
+                        </div>
                     </div>
                 </div>
                 <div class="row" id="site-map">
