@@ -13,11 +13,6 @@
                 </div>
             </div>
         </div>
-        <div id="logo-on-mobile">
-            <a href="<?php bloginfo('url') ?>">
-                <img id="logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo-inovarts.png">
-            </a>
-        </div>
         <div class="box row">
             <div class="col s12 m4 card-service-home">
                 <?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/worldwide.svg') ?>
