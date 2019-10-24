@@ -104,37 +104,6 @@
         }
     }
 }
-#logo-on-mobile {
-    background-color: white;
-    z-index: 2;
-    width: 230px;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    #logo {
-        z-index: 2;
-        width: 200px;
-        height: 200px;
-        top: -43px;
-        right: 16px;
-        @include smartphones {
-            width: 100px;
-            height: 100px;
-            top: -18px;
-            right: 16px;
-        }
-    }
-    @include smartphones {
-        background-color: white;
-        z-index: 2;
-        width: 133px;
-        height: 50px;
-        position: fixed;
-        top: 0;
-        right: 0;
-    }
-}
 .cta-field {
     position: absolute;
     bottom: 0;
