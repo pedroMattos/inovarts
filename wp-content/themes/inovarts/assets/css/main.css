@@ -607,6 +607,22 @@ footer {
   transition-duration: 0.5s;
 }
 
+#contact-footer {
+  color: white;
+}
+#contact-footer h3 {
+  font-size: 28px;
+  margin-top: 15px;
+}
+#contact-footer p {
+  transition-duration: 0.5s;
+  margin: 0;
+}
+#contact-footer p:hover {
+  color: #D9D9D9;
+  transition-duration: 0.5s;
+}
+
 #copyright {
   margin-top: 30px;
   color: #D9D9D9;
@@ -615,10 +631,24 @@ footer {
 
 #links-list .link_footer {
   color: #D9D9D9;
+  padding-top: 0;
 }
 
 #links-list ul.link_footer li {
   margin-bottom: 10px;
+}
+
+#services-portfolio {
+  color: white;
+}
+#services-portfolio h3 {
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+#btn-footer-portfolio button {
+  border: solid white 1px;
+  background-color: #bf0404;
 }
 
 #floater-tools {
