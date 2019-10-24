@@ -43,6 +43,17 @@ window.onload = function() {
         }
     }
 
+    function floater() {
+        var search = doc.getElementById('search-site')
+        var box = doc.getElementById('search-in-site')
+        search.onclick = function() {
+            box.setAttribute('style', 'left:-100%');
+            setTimeout(function() {
+                box.removeAttribute('style', 'left:-100%');
+            }, 10000);
+        }
+    }
+
     // PARALLAX MATERIALIZE
     $(document).ready(function(){
         $('.parallax').parallax();
@@ -51,5 +62,6 @@ window.onload = function() {
 
     //FUNCTION CALL
     menu()
+    floater()
     //slider()
 }
