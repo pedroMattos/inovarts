@@ -47,7 +47,21 @@ footer {
         }
     }
 }
-
+#contact-footer {
+    color: white;
+    h3 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    p {
+        transition-duration: .5s;
+        margin: 0;
+        &:hover {
+            color: $grey-light;
+            transition-duration: .5s;
+        }
+    }
+}
 #copyright {
     margin-top: 30px;
     color: $grey-light;
@@ -55,9 +69,23 @@ footer {
 }
 #links-list .link_footer {
     color: $grey-light;
+    padding-top: 0;
 }
 #links-list ul.link_footer {
     li {
         margin-bottom: 10px;
+    }
+}
+#services-portfolio {
+    color: white;
+    h3 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+}
+#btn-footer-portfolio {
+    button {
+    border: solid white 1px;
+    background-color: rgb(191, 4, 4);
     }
 }
