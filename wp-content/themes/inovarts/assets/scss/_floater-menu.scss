@@ -65,3 +65,26 @@
     background-color: $dark-grey;
     cursor:default;
 }
+#content-text {
+    width: 50%;
+    margin: 10em auto;
+    ul li p {
+        color: white;
+        font-size: 28px;
+    }
+    .menu-item {
+        height: 50px;
+        width: 100%;
+        overflow: hidden;
+        a p {
+            font-weight: 700;
+            transform: translateY(-160%);
+            transition-duration: .5s;
+            font-family: "Cinzel";
+            font-style: italic;
+            &:hover {
+                color: rgb(214, 137, 137);
+            }
+        }
+    }
+}
