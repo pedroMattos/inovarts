@@ -26,6 +26,22 @@
             <div class="line-menu" id="line-menu-2"></div>
             <div class="line-menu" id="line-menu-3"></div>
         </div>
+        <div class="row center" id="content-text">
+            <div class="col m6 s12">
+                <ul>
+                    <li class="menu-item"><a href="portfolio"><p class="item">Portfolio</p></a></li>
+                    <li class="menu-item"><a href="services"><p class="item">Services</p></a></li>
+                    <li class="menu-item"><a href="partners"><p class="item">Partners</p></a></li>
+                </ul>
+            </div>
+            <div class="col m6 s12">
+                <ul>
+                    <li class="menu-item"><a href="privacity-policy"><p class="item">Privacity Police</p></a></li>
+                    <li class="menu-item"><a href="contact"><p class="item">Contact</p></a></li>
+                    <li class="menu-item"><a href="blog"><p class="item">Blog</p></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <!-- Floater icon -->
