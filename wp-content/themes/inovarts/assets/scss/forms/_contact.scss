@@ -1,0 +1,30 @@
+form {
+    width: 30%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 5px;
+    #send {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px 0;
+        .send-button {
+            width: 100%;
+            background-color: $blue-primary;
+            height: 50px;
+        }
+    }
+}
+.form {
+    label {
+        color: $blue-primary;
+    }
+}
+section.hd-pages {
+    height: 300px;
+}
+section#contact-form {
+    padding-top: 50px;
+    background-color: $grey-light;
+}

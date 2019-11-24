@@ -77,9 +77,9 @@ window.onload = function() {
     }
 
     // PARALLAX MATERIALIZE
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
+    $('.parallax').parallax();
+    // SELECT INIT
+    $('select').formSelect();
 
 
     //FUNCTION CALL

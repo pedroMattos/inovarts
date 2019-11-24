@@ -42,6 +42,23 @@
                     <div id="copyright" class="col s12 m4">
                         <p>Copyright © <?php echo date('Y') ?> INOVARTS STUDIOS. All rights reserved.</p>
                     </div>
+                    <div id="social-in-footer" class="col s12 m4">
+                        <div class="inline">
+                            <a target="_blank" id="mail_to" href="mailto:email"><?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/envelope.svg') ?></a>
+                        </div>
+                        <div class="inline">
+                            <a target="_blank" href="facebook.com"><?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/facebook.svg') ?></a>
+                        </div>
+                        <div class="inline">
+                            <a target="_blank" href="instagram.com"><?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/instagram.svg') ?></a>
+                        </div>
+                        <div class="inline">
+                            <a target="_blank" href="contato"><?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/linkedin.svg') ?></a>
+                        </div>
+                        <div class="inline">
+                            <a id="chat_whatsapp" target="_blank" href="https://api.whatsapp.com/send?l=pt_br&phone=12345678"><?php echo file_get_contents('wp-content/themes/inovarts/assets/svg/whatsapp.svg') ?></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Scripts jquery -->

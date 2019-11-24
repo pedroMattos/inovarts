@@ -89,3 +89,20 @@ footer {
     background-color: rgb(191, 4, 4);
     }
 }
+#social-in-footer {
+    svg{
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+        fill: white;
+        transition-duration: .5s;
+        &:hover {
+            fill: $grey-light;
+            transform: scale(1.2);
+            transition-duration: .5s;
+        }
+    }
+    .inline {
+        float: right;
+    }
+}

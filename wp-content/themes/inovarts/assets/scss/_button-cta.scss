@@ -11,11 +11,11 @@
     cursor: pointer;
     margin:  10px;
     &:hover {
-        background-color: rgb(191, 4, 4);
+        background-color: $blue-tertiary;
         transition-duration: .5s;
     }
 }
 button:focus {
     outline: none;
-    background-color: rgb(191, 4, 4);
+    background-color: $blue-tertiary;
 }
